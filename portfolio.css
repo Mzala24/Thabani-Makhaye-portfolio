@@ -1,0 +1,140 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+  padding: 20px;
+}
+
+/* Layout */
+header, section, footer {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+header .btn{
+  margin-left: 10px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #0077cc;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+/* Section Headers */
+h2 {
+  margin-bottom: 10px;
+  color: #0077cc;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Certificates */
+#certificates ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Contact */
+#contact a {
+  color: #0077cc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  background: none;
+  box-shadow: none;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark header,
+body.dark section {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+}
+
+body.dark .btn {
+  background-color: #333;
+  color: #eee;
+}
+
+body.dark .btn:hover {
+  background-color: #555;
+}
+
+body.dark a {
+  color: #66ccff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+}
