@@ -1,3 +1,10 @@
+/* Center footer buttons */
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
 /* Reset & Base */
 * {
   margin: 0;
@@ -88,6 +95,7 @@ h2 {
 /* Contact */
 #contact a {
   color: #0077cc;
+  text-decoration: none;
 }
 
 /* Footer */
